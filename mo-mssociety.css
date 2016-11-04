@@ -1,3 +1,1021 @@
+/* E-ACTIVIST 3.1.05 LAYOUT AND FORMATS */
+
+/* campaign body */
+
+body {
+	color: #333333;
+	font-size: 100%;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;	/*min-height: 1100px;*/
+
+}
+h1, h2, h3, .h1, .h2, .h3, .eaFormElementLabel, .submitbutton { font-family: "Square Serif Demi Bold",Georgia,"Times New Roman",Times,serif; font-size-adjust: 0.5; font-weight: 600; font-style: normal; }
+.eaErrorMessage, .en_right_wrapper p, .eaFormElementLabel, .eaFormField, .eaMessageContentContainer, .eaMessageSubject, .eaMessageSignoff, .eaContactsContainer, .eaMessageSalutationContainer, .eaSenderBlock, .eaMessageSubject, .eaMessageSignoff   {margin-left: 20px;
+margin-right: 20px;}
+h1 {font-size: 2.2em;
+padding-bottom: 10px;}
+/*---make image disappear on all but smallest viewport-----*/
+#bgwrapper {
+	background-repeat: no-repeat;
+	background-position: left -100px;
+	background-image: url('https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/karen-bg.jpg?v=1422968308000');
+	background-color: #f0f0ee;
+	min-height: 900px;
+}
+form {margin: 0px; padding: 0px;}
+.container{
+	width: 94%;
+	margin-left: auto; margin-right: auto;
+	}
+#header, #footer {background-color: #dcddde; padding-top: 15px; padding-bottom: 15px;}
+#header {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	-webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+}
+#footer {
+	clear: both;
+
+}
+#footer p {color: #666666; font-size: 0.8em;}
+.ms-intro {
+	background-image: url('https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/ms-intro-bg.png?v=1422968311000');
+	background-repeat: repeat;
+	padding: 20px;
+}
+.ms-intro h1 {
+	margin: 0px; color: #fff!important;
+}
+.ms-intro p {
+	color: #fff!important; font-size: 1.3em; margin: 0px;
+}
+.clear {clear: both;}
+
+.eaSubmitButton {display: none;}
+.submitbutton {
+	background-color: #cc0066;
+	font-size: 1.7em;
+	color: #fff;
+	border: 1px solid #FFFFFF;
+	margin: 20px;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+}
+.submitbutton:hover {
+	background-color: #75003A;
+}
+BODY.eaCampaignBody {margin: 0px;height: 100%;}
+
+/* GENERAL STYLES */
+
+/* default font styles */
+
+.eaFullWidthContent, .eaLeftColumnContent, .eaRightColumnContent, .eaErrorMessage {
+	
+	}
+	
+	/*---styles for thank you page -----*/
+	
+.eaLeftColumnContent {
+
+}
+
+.eaRightColumnContent {
+}
+
+.en_left_wrapper {
+width: 62%;
+float: left;
+}
+.en_right_wrapper {
+width: 32%;
+float: right;
+background-color: #ff6633;
+margin-top: -140px;
+min-width: 320px;
+max-width: 480px;
+-webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+}
+.shareframe {
+	background-color: #fff;
+	margin-bottom: 1em;
+	border-radius: 7px;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 2%;
+	padding-right: 2%;
+	border: 1px solid #000000;
+}
+
+.en_left_wrapper p {
+color: #000; font-size: 1.1em;
+}
+.en_right_wrapper p {
+	color: #fff;
+	font-size: 1.3em;
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+}
+.en_right_wrapper h2 {
+	color: #FFF;
+	font-size: 1.6em;
+	background-color: #C06;
+	margin-top: 0px;
+	-webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+/* input fields */
+
+.eaFormTextfield, .eaFormSelect, .eaFormZipTextfield, .eaFormZipExtTextfield, .eaFormTextArea, .eaQuestionTextfield, .eaQuestionTextArea, .eaMessageSalutation, .eaMessageContent, .eaMessageSignoff, .eaMessageSubject, .eaFriendFormTextfield, .eaSenderMailTemplateSalutation, .eaSenderMailTemplate, input #Donation_amountOther, #Donation_amountOther, .eaFormSelect, .eaQuestionSelect, .eaSplitTextfield, .eaRadioTextfield, .eaSplitSelectfield, .eaSelectTextfield {
+	/*font-family: Arial, Helvetica, sans-serif;
+	background-color:#f9f9f9;
+	border: 1px solid #666666;
+	color: #666666; 
+	margin:1px 0px; 
+	padding:2px; */
+	
+	font-family: inherit;
+	font-size: inherit;
+	border: 1px solid #ccc;
+	background: #fff;
+	border-radius: 3px;
+	moz-border-radius: 3px;
+	margin-top: 0px;
+	padding: 10px;
+	-webkit-box-shadow: inset 0px 0px 5px -1px rgba(173,173,173,1);
+-moz-box-shadow: inset 0px 0px 5px -1px rgba(173,173,173,1);
+box-shadow: inset 0px 0px 5px -1px rgba(173,173,173,1);
+	}
+
+.eaFormTextfield:focus, .eaFormTextArea:focus, .eaQuestionTextfield:focus, .eaQuestionTextArea:focus, .eaMessageContent:focus, .eaMessageSalutation:focus, .eaMessageSignoff:focus, .eaMessageSubject:focus, .eaFriendFormTextfield:focus, .eaSenderMailTemplateSalutation:focus, .eaSenderMailTemplate:focus, .eaFormSelect:focus, .eaQuestionSelect:focus, .eaSplitTextfield:focus, .eaRadioTextfield:focus, .eaSplitSelectfield:focus, .eaSelectTextfield:focus {
+	border: 1px solid #333333;
+	background-color:#FFFFFF;
+	-webkit-box-shadow: inset 0px 0px 5px -1px rgba(242,242,242,1);
+-moz-box-shadow: inset 0px 0px 5px -1px rgba(242,242,242,1);
+box-shadow: inset 0px 0px 5px -1px rgba(242,242,242,1);
+	}
+
+/* links */
+
+.eaSwitchCopyLink, .eaBiographyLink, .eaContactLink {
+	color: #000000;
+	}
+
+
+/* ONE COLUMN LAYOUT */
+
+.eaFullWidthContent{
+	/*float:left; */
+	}
+	
+/* this is the space when leaving a gap in the design page */
+
+.eaTwoColumnFiller{
+	height:20px;
+	width:100%;
+	position:relative;
+	clear:both;
+	}
+	
+/* ajax content */
+
+.eaAjaxContent{
+	float:left;
+	width:100%;
+	position:relative;
+	clear:both;
+	}
+
+/* TWO COLUMN LAYOUT */
+
+.eaLeftColumnContent a {
+	color: #FFFFFF;
+}
+.eaFormElementLabel {
+	width: 100%;
+float: left;
+color: #fff;
+font-size: 1.3em;
+}
+
+
+/* these are the spaces when leaving a gap in the design page */
+
+.eaLeftColumnFiller{
+
+	display: none;
+	}
+
+.eaRightColumnFiller{
+
+	display: none;
+	}
+
+
+/* CAMPAIGN FORM */
+/* div area for form field */
+.eaFormField {
+margin-bottom: 10px;
+}
+/* text label */
+
+ .eaFormElementLabel a, .eaFormElementLabel a:active {
+	 color: inherit;
+ }
+	
+/* textfield */
+
+.eaFormTextfield {
+	margin-bottom: 10px;
+	background-color: #FFFFFF;
+	width: 95%;
+}
+.eaFormSelect{
+margin-bottom: 10px;
+width: 100%;
+background-color: #FFF;
+float: right;
+}
+		
+.eaSplitSelectfield
+{
+	margin-bottom: 10px;
+	width: 80px;
+}
+
+/* textarea */
+
+.eaFormTextArea {
+	height: 120px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-color: #FFFFFF;
+	width: 60%;
+	}
+#Postcode {width: 60%;}
+
+/* radio button */
+
+.eaFormRadio {}
+
+.eaRadioTextfield
+{
+   margin-top: -5px;
+}
+
+
+/* checkbox */
+
+.eaFormCheckbox {
+	clear: both;
+	display: block;
+
+
+}
+.eaFormCheckbox label {
+width: auto;
+display: inline-block;
+
+}
+
+
+/* select */
+
+
+.eaSelectTextfield {
+	margin-top: -5px;
+}
+
+/* CAMPAIGN QUESTIONS */
+
+/* text label */
+
+.eaQuestionLabel {
+	padding-right:5px;
+	padding-bottom:5px;
+	float:left;
+	width: 140px;
+	}
+
+/* textfield container */
+
+
+/* campaign question text form field container*/
+.eaQuestionTextfieldFormFieldContainer {float:left;width:200px;;position:relative;}
+/* campaign question textarea form field container*/
+.eaQuestionTextareaFormFieldContainer {float:left;width:200px;position:relative;}
+/* campaign question select form field container*/
+.eaQuestionSelectFormFieldContainer {float:left;width:200px;position:relative;}
+/* campaign question checkbox form field container*/
+.eaQuestionCheckboxFormFieldContainer {
+	clear:left;
+	display: block;
+	padding-bottom: 5px;
+	margin-left: 20px;
+}
+/* campaign question radio form field container*/
+.eaQuestionRadioFormFieldContainer {clear:left;}
+
+/* textfield */
+
+.eaQuestionTextfield {
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+
+
+/* textarea */
+
+.eaQuestionTextArea {
+	height: 70px;
+	width: 300px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	}
+
+
+/* radio button */
+
+.eaQuestionRadio {}
+
+/* checkbox */
+
+.eaQuestionCheckbox {
+}
+
+
+.eaQuestionCheckbox label{
+	display: inline-block;
+	width: 80%;
+	color: #fff;
+}
+.eaQuestionCheckbox input{
+	margin-right:5px;
+	vertical-align: top;
+	}
+
+/* select */
+
+.eaQuestionSelect {}
+
+
+/* INSTRUCTION TEXT */
+
+/* form instruction  */
+
+.eaFormInstruction {
+width: 370px;}
+
+/* issue text */
+
+.eaIssue {}
+
+/* letter instruction text */
+
+.eaLetterInstruction {}
+
+/* other instruction text */
+
+.eaOtherInstruction {}
+
+/* send instruction text */
+
+.eaSendInstruction {}
+
+
+/* MESSAGE */
+
+/* subject line container */
+
+.eaMessageSubjectContainer {
+	padding-bottom:5px;
+	float:left;
+	clear:left;
+	position:relative;
+	width: 98%;
+	}
+
+/* subject line */
+
+
+/* message content container */
+.eaMessageContentContainer, .eaSwitchSubjectContainer {	width: 97%; }
+.eaMessageContentContainer {
+	float:left;
+	clear:left;
+	position:relative;
+	/*background-color:#f9f9f9;*/
+	color: #666666;
+	margin-top: 1px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	padding-top: .5em;
+	}
+	.eaMessageSubject {width: 93%;}
+
+/* message content */
+
+.eaMessageContent {
+	width:93%;
+	height:250px;
+	overflow-x: hidden;
+	border-top-color: #F9F9F9;
+	border-right-color: #F9F9F9;
+	border-bottom-color: #F9F9F9;
+	border-left-color: #F9F9F9;
+	}
+
+.eaMessageCharacterCount { display:none; }
+
+
+/* Email a Friend subject */
+.eaSwitchSubjectContainer {
+	padding-bottom: 5px;
+}
+
+
+
+/* salutation container */
+
+.eaMessageSalutationContainer {
+display: none;
+
+	}
+
+
+/* salutation */
+
+.eaMessageSalutation {
+	overflow: hidden;
+	}
+
+/* signoff container */
+
+.eaMessageSignoffContainer {
+	padding-top:5px;
+	}
+
+/* signoff */
+
+
+/* SWITCH COPY */
+
+/* instruction text */
+
+.eaSwitchCopyInstruction {}
+
+/* container for switch copy links */
+
+.eaSwitchCopyLinksContainer {
+	float:left; 
+	width:100%; 
+	position:relative; 
+	padding-left:20px; 
+	padding-top:10px;
+	}
+
+
+/* CONTACTS */
+
+/* select contact instruction text */
+
+.eaSelectContactInstruction {}
+
+/* container for contacts */
+
+	/*
+.eaContactsContainer {
+	float:left;
+	width: 95%;
+	position:relative;
+	padding:10px;
+	background-color:#D4007F;
+	color: #FFFFFF;
+	margin-bottom: 0.5em;
+	}*/
+.eaContactsContainer {
+	float:left;
+	width: 99%;
+	position:relative;
+	margin-bottom: 0.5em;
+	}
+#stw	.eaContactsContainer {
+	display: none;
+	}		
+	
+/* contact name container */
+.eaContactNameContainer, .eaContactOrgContainer{
+	width: 47%; float: left; font-size: 12px;
+	}
+.eaContactNameContainer{
+	margin-right: 8px;
+	clear: both;
+	}
+
+
+/* contact organization container */
+
+
+/* contact biographyLink container */
+
+.eaContactBiographyLinkContainer{
+	float:left;
+	position:relative;
+	font-weight:bold;
+	height:25px;
+	padding-top:4px;
+	width:125x;
+	}
+
+/* contact biography container */
+
+.eaContactBiographyContainer{
+	float:left; 
+	position:relative;
+	width: 90%;
+	clear:left;
+	padding-left:0px;
+	padding-right:0px;
+	}
+
+/* contact biography list */
+
+.eaContactBiographyList{
+	float:left; 
+	position:relative;
+	margin-top:20px;
+	}
+
+/* contact biography line container */
+
+.eaContactBiographyLineContainer{
+	clear:left;
+	padding-left:0px;
+	padding-bottom:5px;
+	list-style-type: disc;
+	}
+	
+.eaContactBiographyPictureContainer {
+	float:left;
+	position:relative;
+	width:125px;
+	}		
+
+/* contact select checkbox */
+
+.eaContactSelectCheckbox {
+	color: #666666;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+margin-right: 5px;
+}
+
+/* Multiple contact tabbed list */
+/* container for a contact */
+.eaContactContainer {float:left; width:98%; position:relative; padding-left:5px; margin-bottom:10px; padding-top:10px; padding-bottom:10px; border:1px solid #e6e6e6; background-color: #fff;
+}
+/* container for a contact's detail */
+.eaContactDetailContainer {float:left; width:98%; position:relative; padding-top:10px; padding-left:5px;clear:left; margin-top: 10px;}
+/* container for a contact's issue comments */
+.eaContactCommentContainer {position:relative;float:left;clear:left;margin-left:0px; width:98%; padding-top:10px; padding-left:10px;border:1px solid #bfbfbf;height:200px; overflow:auto;}
+/* contact issue status icon container */
+.eaContactIssueStatusContainer {position:relative;float:right;padding-right:10px;}
+/* contact party container */
+.eaContactPartyContainer{float:left; clear:both; margin-left:200px; width:200px; top:-10px;position:relative;padding-left:10px;}
+/* contact position container */
+.eaContactPositionContainer{float:left; width:50%;position:relative;padding-left:0px;}
+.contactTabContent{
+padding-left: 5px;
+padding-bottom: 5px;
+width: 95%;
+}
+
+/* SEND OPTIONS */
+
+.eaSendOptionsContainer {
+	float:left; 
+	width:100%; 
+	position:relative; 
+	padding-left:20px; 
+	padding-top:10px;
+	}
+
+.eaSendOptionRadio 
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* SUBMIT/RESET BUTTONS */
+
+/* submit/reset buttons position */
+
+.eaSubmitResetButtonGroup {
+	display: none;
+}
+
+
+.eaResetButton {
+	display: none;
+	}
+/* Hack for IE6 */
+ .eaResetButton {
+_margin-top: -18px;
+}
+	
+
+/* RECEIPIENT AND SENDER BLOCKS */
+
+.eaRecipientBlock{
+	display: none;
+	}
+	
+
+.eaSenderBlock {
+	clear:both;
+	font-size: .9em;
+color: #fff;
+}
+
+
+/* THANK YOU PAGE */
+
+.eaThankPage {}
+
+
+/* EMAIL A FRIEND STYLES */
+
+/* content containers */
+
+
+/* friend form label */
+
+
+
+/* email friend form text field */
+
+.eaFriendFormTextfield {
+	margin-bottom: 5px;
+	background-color: #FFFFFF;
+	width: 60%;
+	}
+
+/* sender email (email a friend) content container */
+
+.eaSenderMailTemplateContainer{
+	float:left;
+	clear:left;
+	position:relative;
+	width: 98%;
+	}
+
+/* sender email (email a friend) textarea */
+
+.eaSenderMailTemplate {
+	height: 280px;
+	width: 97%;
+	}
+
+/* sender email salutation text field */
+
+.eaSenderMailTemplateSalutation {
+	width: 180px; 
+}
+
+/* ERROR MESSAGES */
+
+
+
+.eaAjaxErrorMessageContainer {
+	text-align: left;
+	margin-left:20px;
+	}
+	
+.eaMandatoryFieldMarker {
+	color:#e72974;
+	}
+	
+	
+	/* Second style set */ 	
+	
+	
+	/* CONTENT CONTAINERS */ 
+
+
+
+
+
+
+/* label spacer used to reserve label space to left of form field when mixing field label positions.
+ * this should be set to match the width and padding of eaFormElementLabel style if any left side labels are used.
+ * if all form field labels are on left, the spacer has no effect 
+ */
+.eaLabelSpacer {
+float:left;
+display: none;
+}
+
+
+/* thank page */
+.eaThankPage {}
+
+/*error messages*/
+.eaErrorMessage {
+color: #691F1F;
+clear: both;
+}
+
+.eaFieldErrorHighlightColor {
+   background-color:red;
+   padding: 10px;
+color: white;
+margin-bottom: 10px;
+}
+
+.eaValidationIcon {
+    display: none;
+    position: relative;
+	padding-left: 3px;
+    *margin-top: -30px;
+    *display: inline-block;
+    *margin-left: 4px;
+}
+
+.eaValidationIconImg
+{
+  float: right;
+  padding-top: 0px;
+  margin-top: 4px;
+  width: 20px;
+  height: 20px;
+  *float: none;  /* IE7 Fixes */
+  *margin-top: 2px;
+}
+
+/*
+Old styles - delete in next revision
+.eaValidationIcon {
+   width:20px;
+   padding-right:5px;
+}
+
+.eaValidationIconImg {
+   height:20px;
+   width:20px;
+   border:0px;
+   float: right;
+}
+*/
+
+.eaAjaxErrorMessageContainer {
+
+text-align: left;
+
+color: #000000;
+margin-left:20%;
+}
+
+
+
+/* container for contacts */
+
+.eaContactContainer {float:left; width:98%; position:relative; padding-left:5px; margin-bottom:10px; padding-top:10px; padding-bottom:10px; border:1px solid #e6e6e6; background-color: #fff;
+}
+
+/* ======  additional styles for new contact list ===== */
+/* container for a contact */
+
+
+
+/* container for send options */
+
+
+
+
+/* mandatory field marker */
+.eaMandatoryFieldMarker {
+	color:#D4007F;
+}
+
+/* campaign ajax content */
+.eaAjaxContent{float:left; width:100%; position:relative;clear:both;}
+
+
+
+
+/* captcha form container */
+.ea_captcha_container{
+   float:left;
+   border:1px solid;
+   padding-left:10px;
+   margin-left:10px;
+}
+
+.eaCaptchaTextFieldContainer {float:left;margin-top:10px;position:relative;clear:both}
+
+/* message character count container */
+.eaMessageCharacterCount {
+   float:left;
+   position:relative;
+   text-align:right;
+}
+
+.issueicon {border:0px;height:30px;width:30px;}
+
+.eaErrorMessageHide {
+   display:none;
+}
+
+
+/*
+   EA Errors that appear and the top of the page
+*/
+#eaerrors
+{
+    /*background: none repeat scroll 0 0 #FFBABA;
+    border-bottom: 1px solid #C37A19;
+    border-top: 1px solid #C37A19;*/
+    color: #D8000C;
+    padding: 10px;
+}
+
+#eaerrors a, #eaerrors h1
+{
+   color: #D8000C;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+/* Email a Friend form styles */
+
+
+/* Form name is assumed */
+form[name='EAF Form_1'] .eaFormElementLabel, #ea\.friend\.emailDiv .eaFormElementLabel
+{ float: left;
+	margin-top: 5px;
+	min-width: 110px;
+}
+
+
+/* style for single column */
+form[name='EAF Form_1'] .eaFormElementLabel, #ea\.friend\.emailDiv .eaFormElementLabel
+{
+	clear: left;
+}
+
+#ea\.friend\.emailDiv
+{
+	max-width: 600px;
+}
+
+
+#ea\.friend\.emailDiv .eaFormField
+{
+	width: 100%;
+}
+/* style for single column end */
+
+
+form[name='EAF Form_1'] .eaFormElementLabel, #ea\.friend\.emailDiv .eaLeftColumnContent .eaFormElementLabel
+{
+	clear: left;
+}
+
+#ea\.friend\.emailDiv .eaLeftColumnContent .eaFormElementLabel
+{
+	clear: none;
+}
+
+
+#ea\.friend\.emailDiv .eaLeftColumnContent, #ea\.friend\.emailDiv .eaRightColumnContent
+{
+	width: 49%;
+
+}
+
+#ea\.friend\.emailDiv .eaLeftColumnContent .eaFormField
+{
+	width: 48%;
+	margin-right: 0px;
+}
+
+
+#ea\.friend\.emailDiv .eaRightColumnContent .eaFormElementLabel
+{
+	width: auto;
+}
+
+
+#ea\.friend\.emailDiv .eaRightColumnContent .eaFormField
+{
+	width: 45%;
+	margin-right: 0px;
+}
+
+
+/* Captcha */
+
+
+#captchaDiv .eaFormElementLabel
+{
+  display: none;
+}
+
+.clear {
+	clear: both;
+}
+
+
+#First_Name, #Last_Name {
+	text-transform: capitalize;
+}
+
+#Email_AddressDiv {
+	padding-bottom: 10px;
+}
+
+
+img {border: none;}
+
+.main-left img {display: none;}
+
+@media screen and (max-width: 1042px), screen and (max-device-width: 1042px)
+{
+.en_left_wrapper {
+    width: 30%;
+}
+}
+
+@media screen and (max-width: 750px), screen and (max-device-width: 750px)
+{
+
+.en_left_wrapper {
+width: 100%;
+float: none;
+}
+.en_right_wrapper {
+width: 100%;
+float: none;
+max-width: 750px;
+margin-top: 0px;
+padding-bottom: 10px;
+min-width: 270px;
+}
+#bgwrapper {
+    background-image: none;
+	min-height: 0px;
+}
+.main-left img {display: block; width: 100%; height: auto;}
+.eaFormElementLabel {
+    width: 80%;
+}
+}
+
+
+@media screen and (max-width: 480px), screen and (max-device-width: 480px)
+{
+.eaContactNameContainer, .eaContactOrgContainer {
+    width: 90%;
+    float: none;
+}
+}
+@media screen and (max-width: 480px), screen and (max-device-width: 480px) and (orientation: landscape)
+{
+
+}
+
+
+@media screen and (max-width: 428px), screen and (max-device-width: 428px)
+{
+
+
+}
+@media screen and (max-width: 335px), screen and (max-device-width: 335px)
+{
+
+}
+@media screen and (max-width: 709px), screen and (max-device-width: 709px)
+{
+
+}
+
+
 <!-- New brand -->
 
 #header, #footer {
@@ -12,5 +1030,6 @@
 .eaMessageSignoffContainer {
     display: none;
 }
+
 
 
