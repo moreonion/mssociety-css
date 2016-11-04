@@ -126,11 +126,7 @@ color: #000; font-size: 1.1em;
 .en_right_wrapper h2 {
 	color: #FFF;
 	font-size: 1.6em;
-	background-color: #C06;
 	margin-top: 20px;
-	-webkit-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
-	-moz-box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
-	box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
