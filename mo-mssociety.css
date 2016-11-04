@@ -1041,36 +1041,3 @@ min-width: 270px;
 .eaContactsContainer {
 	display: none;}
 
-
-/* ==================================================================
- * special tweaks
- * ================================================================== */
-/* ---------- political exchange issue ------------------------------ */
-.polResponseTable {
-  width: 90%;
-  max-width: 40em;
-  margin: 0 auto;
-}
-.polResponseTable select,
-.polResponseTable .selecter {
-  min-width: 280px;
-}
-@media screen and (min-width: 780px) {
-  .polResponseTable select,
-  .polResponseTable .selecter {
-    min-width: 540px;
-  }
-}
-.polResponseTable #commitmentIconDiv {
-  display: none;
-}
-@media screen and (min-width: 520px) {
-  .polResponseTable #commitmentIconDiv {
-    display: block;
-    padding-top: 18px;
-  }
-}
-.polResponseTable input[name="Clear"] {
-  display: none;
-}
-
