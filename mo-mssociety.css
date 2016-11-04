@@ -336,7 +336,8 @@ display: inline-block;
 /* textarea */
 
 .eaQuestionTextArea {
-	height: 380px;
+margin-bottom: 20px;
+height: 380px;
     margin-left: -125px;
     overflow-x: hidden;
     overflow-y: auto;
@@ -1029,3 +1030,6 @@ min-width: 270px;
 #bgwrapper {
     background-image: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/RS1718_009-Clayton-Bastiani-Amy-Mackelden-DSC_6239-750px-2.jpg?v=1478191896000");
 }
+
+.eaContactsContainer {
+	display: none;}
