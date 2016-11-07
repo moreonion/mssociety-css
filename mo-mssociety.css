@@ -19,9 +19,10 @@ padding-bottom: 10px;}
 #bgwrapper {
 	background-repeat: no-repeat;
 	background-position: left -100px;
-	background-image: url('https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/karen-bg.jpg?v=1422968308000');
+	background-image: url('https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/RS1718_009-Clayton-Bastiani-Amy-Mackelden-DSC_6239-750px-2.jpg?v=1478191896000');
 	background-color: #f0f0ee;
-	min-height: 900px;
+	min-height: 900px;	
+	background-size: cover;
 }
 form {margin: 0px; padding: 0px;}
 .container{
@@ -1030,6 +1031,7 @@ min-width: 270px;
 
 #bgwrapper {
     background-image: url("https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/RS1718_009-Clayton-Bastiani-Amy-Mackelden-DSC_6239-750px-2.jpg?v=1478191896000");
+	background-size: cover;
 }
 
 
