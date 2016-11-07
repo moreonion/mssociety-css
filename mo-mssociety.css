@@ -1027,7 +1027,7 @@ min-width: 270px;
 }
 
 .eaQuestionTextareaFormFieldContainer { width: 100%; }
-.eaQuestionTextArea { width: 100%; margin: 0; }
+.eaQuestionTextArea { width: 100%; margin: 0 0 20px;}
 
 /* MP pledge action specific */
 
