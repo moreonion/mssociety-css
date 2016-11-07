@@ -57,9 +57,9 @@ box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
 
 .eaSubmitButton {display: none;}
 .submitbutton {
-	background-color: #cc0066;
+	background-color: #FFFFFF;
 	font-size: 1.7em;
-	color: #fff;
+	color: #d14900;
 	border: 1px solid #FFFFFF;
 	margin: 20px;
 	padding-top: 10px;
@@ -68,7 +68,7 @@ box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.2);
 	padding-left: 25px;
 }
 .submitbutton:hover {
-	background-color: #75003A;
+	background-color: #6A3460;
 }
 BODY.eaCampaignBody {margin: 0px;height: 100%;}
 
