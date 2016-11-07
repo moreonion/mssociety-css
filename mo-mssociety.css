@@ -1044,3 +1044,12 @@ min-width: 270px;
 .eaContactsContainer {
 	display: none;}
 
+/* Political issue page */
+
+table.polResponseTable {
+    background-image: url(https://aaf1a18515da0e792f78-c27fdabe952dfc357fe25ebf5c8897ee.ssl.cf5.rackcdn.com/1692/ms-intro-bg.png?v=1422968311000);
+    background-repeat: repeat;
+    padding: 20px;
+    color: #fff;
+}
+
