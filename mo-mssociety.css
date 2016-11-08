@@ -266,7 +266,7 @@ float: right;
 #Postcode {width: 60%;}
 
 
-textarea { width: 100%; } 
+textarea { width: 100%; max-width: 40%;} 
 
 /* radio button */
 
@@ -1071,4 +1071,9 @@ table.polResponseTable {
 	padding-bottom: 10px;
 	padding-left: 25px;
 	border-radius: 7px
-}}
+}
+
+#button:hover {
+    background-color: #d14900;
+    color: #FFFFFF;
+}
