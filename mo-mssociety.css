@@ -1110,7 +1110,7 @@ float: right;
     width: 90%;
 }
 
-#commitmentIconDiv {
+#commitmentIconDiv img {
   background-color: #fff;
   border-radius: 50%;
 }
