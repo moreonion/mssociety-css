@@ -1109,3 +1109,8 @@ float: right;
 .issue_comment {height: 100px;
     width: 90%;
 }
+
+#commitmentIconDiv {
+  background-color: #fff;
+  border-radius: 50%;
+}
