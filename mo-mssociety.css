@@ -1061,6 +1061,10 @@ table.polResponseTable {
 	max-width: 60%;
 }
 
+.polResponseTable input[name="Clear"] {
+  display: none;
+}
+
 #button   {font-family: "DSariHeavy",Georgia,"Times New Roman",Times,serif; font-size-adjust: 0.5; font-weight: 500; font-style: normal; 
 	background-color: #FFFFFF;
 	font-size: 1.7em;
