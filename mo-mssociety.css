@@ -266,7 +266,7 @@ float: right;
 #Postcode {width: 60%;}
 
 
-textarea { width: 100%; max-width: 40%;} 
+textarea { width: 100%;} 
 
 /* radio button */
 
@@ -1058,6 +1058,7 @@ table.polResponseTable {
     background-repeat: repeat;
     padding: 20px;
     color: #fff;
+	max-width: 60%;
 }
 
 #button   {font-family: "DSariHeavy",Georgia,"Times New Roman",Times,serif; font-size-adjust: 0.5; font-weight: 500; font-style: normal; 
@@ -1077,3 +1078,21 @@ table.polResponseTable {
     background-color: #d14900;
     color: #FFFFFF;
 }
+
+#commitmentSelect {font-family: inherit;
+	font-size: inherit;
+	border: 1px solid #ccc;
+	background: #fff;
+	border-radius: 3px;
+	moz-border-radius: 3px;
+	margin-top: 0px;
+	padding: 10px;
+	-webkit-box-shadow: inset 0px 0px 5px -1px rgba(173,173,173,1);
+-moz-box-shadow: inset 0px 0px 5px -1px rgba(173,173,173,1);
+box-shadow: inset 0px 0px 5px -1px rgba(173,173,173,1);
+	margin-bottom: 10px;
+width: 100%;
+background-color: #FFF;
+float: right;
+}
+	}
