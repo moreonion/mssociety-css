@@ -1095,4 +1095,7 @@ width: 100%;
 background-color: #FFF;
 float: right;
 }
-	}
+
+#ea_issue_commitment {
+    margin-bottom: 20px;
+}
