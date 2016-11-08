@@ -1060,4 +1060,15 @@ table.polResponseTable {
     color: #fff;
 }
 
-#button   {font-family: "DSariHeavy",Georgia,"Times New Roman",Times,serif; font-size-adjust: 0.5; font-weight: 500; font-style: normal; }
+#button   {font-family: "DSariHeavy",Georgia,"Times New Roman",Times,serif; font-size-adjust: 0.5; font-weight: 500; font-style: normal; 
+	background-color: #FFFFFF;
+	font-size: 1.7em;
+	color: #d14900;
+	border: 1px solid #FFFFFF;
+	margin: 20px;
+	padding-top: 10px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	border-radius: 7px
+}}
